@@ -5,6 +5,10 @@ Declative components for creating a Kitchin powered Map
 ## Example setup using Tapestry
 
 ```js
+import React, { Component } from 'react'
+import { MapBase, VenueProvider } from 'react-kitchin'
+import { Link } from 'react-router'
+
 const venueStyle = {
   background: 'white',
   position: 'fixed',
@@ -31,10 +35,6 @@ const navStyle = {
   color: 'white'
 
 }
-
-import React, { Component } from 'react'
-import { MapBase, VenueProvider } from './legend'
-import { Link } from 'react-router'
 
 const Marker = (props) =>
   <Link to={`/map/${props.slug}`}>
