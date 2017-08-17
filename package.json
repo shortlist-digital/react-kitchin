@@ -1,0 +1,18 @@
+{
+  "name": "legend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "react-kithcin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tapestry start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-map-react": "^0.24.0"
+  },
+  "devDependencies": {
+    "tapestry-wp": "shortlist-digital/tapestry-wp#feature/client-side-hot-reload-dev"
+  }
+}
