@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "google-map-react": "^0.24.0"
+    "google-map-react": "^0.24.0",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "tapestry-wp": "shortlist-digital/tapestry-wp#feature/client-side-hot-reload-dev"
