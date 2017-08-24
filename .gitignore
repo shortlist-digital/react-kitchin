@@ -1,2 +1,5 @@
 node_modules
-tapestry.config.js
+dev-config.json
+.tapestry
+_scripts
+npm-debug.log

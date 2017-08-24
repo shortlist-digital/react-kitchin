@@ -2,7 +2,7 @@
   "name": "legend",
   "version": "1.0.0",
   "description": "",
-  "main": "react-kithcin/index.js",
+  "main": "react-kitchin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tapestry start"
@@ -11,9 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "google-map-react": "^0.24.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "webpack-merge": "^4.1.0"
   },
   "devDependencies": {
-    "tapestry-wp": "shortlist-digital/tapestry-wp#feature/client-side-hot-reload-dev"
+    "tapestry-wp": "v2.0.0-24"
   }
 }
