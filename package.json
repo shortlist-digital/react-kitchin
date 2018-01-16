@@ -12,6 +12,7 @@
   "dependencies": {
     "google-map-react": "^0.24.0",
     "lodash": "^4.17.4",
+    "react-mapbox-gl": "^2.2.1",
     "webpack-merge": "^4.1.0"
   },
   "devDependencies": {
